@@ -1,0 +1,11 @@
+name = "bollyspill"
+main = "workers/bollyspill/worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "ARTICLES_KV"
+id = "326b6a690e794d2d8377b0cf4e74c716"
+
+[routes]
+pattern = "bollyspill.com/*"
+zone_name = "bollyspill.com"
